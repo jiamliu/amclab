@@ -22,7 +22,7 @@ const Footer = () => {
             </div>
             <div className="flex items-center gap-3 mt-3">
               <MdOutlineMail className="text-2xl text-white" />
-              <p className="text-white text-sm font-serif">Hui.Ouyang@utdallas.com</p>
+              <p className="text-white text-sm font-serif">Hui.Ouyang@utdallas.edu</p>
             </div>
             <div className="flex items-center gap-3 mt-6">
               <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
