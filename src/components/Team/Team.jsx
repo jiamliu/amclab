@@ -29,8 +29,8 @@ const Team = () => {
   ];
 
   return (
-    <div id="team" className="container mx-auto px-4 py-6">
-      <h2 className="text-5xl text-yellow-600 font-bold font-serif mb-24">Meet Our Team</h2>
+    <div id="team" className="bg-slate-100 w-full py-6">
+      <h2 className="text-5xl text-yellow-600 font-bold font-serif mb-24 text-center md:text-left md:ml-14">Meet Our Team</h2>
       <div className="mb-24">
         <h3 className="text-3xl text-yellow-600 font-semibold font-serif mb-10 text-center">Graduate Students</h3>
         <div className="flex flex-wrap justify-center gap-32">

@@ -3,7 +3,7 @@ import PrinciplePhoto from "../../assets/principle.webp"
 
 const Principle = () => {
   return (
-    <div id="principle-investigator" className="bg-slate-100 text-black duration-300 sm:min-h-[600px] sm:grid sm:place-items-center">
+    <div id="principle-investigator" className="bg-white text-black duration-300 sm:min-h-[600px] sm:grid sm:place-items-center">
         <div className="container">
             <div className="grid grid-cols-1 sm:grid-cols-2 place-items-center">
                 <div>

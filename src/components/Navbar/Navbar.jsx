@@ -5,8 +5,9 @@ const NavLinks = [
     { id: "1", name: "Home", link: "/#home" },
     { id: "2", name: "Principle Investigator", link: "/#principle-investigator" },
     { id: "3", name: "Team", link: "/#team" },
-    { id: "4", name: "Hiring", link: "/#hiring" },
-    { id: "5", name: "Contact", link: "/#contact" },
+    { id: "4", name: "Events", link: "/#events" },
+    { id: "5", name: "Hiring", link: "/#hiring" },
+    { id: "6", name: "Contact", link: "/#contact" },
 ];
 
 const Navbar = () => {
@@ -51,5 +52,6 @@ const Navbar = () => {
 }
 
 export default Navbar;
+
 
 
