@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="relative z-10 text-zinc-100 text-center font-serif font-bold">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Welcome to AMC Lab</h1>
         <p className="text-xl md:text-2xl">UT Dallas Erik Jonsson School of Mechanical Engineering</p>
-        <p className="text-xl md:text-2xl">Aerosol Measurements and Control</p>
+        <p className="text-xl md:text-2xl">Aerosol Measurements and Control Laboratory</p>
       </div>
     </div>
   );
