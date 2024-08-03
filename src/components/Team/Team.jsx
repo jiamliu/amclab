@@ -8,22 +8,26 @@ import underGrad3 from '../../assets/Jamay.webp';
 import underGrad4 from '../../assets/Emerald.webp';
 import volunteer1 from '../../assets/Endy.webp';
 import volunteer2 from '../../assets/Max.webp';
+import gradStudent4 from '../../assets/brandon.jpg';
+import underGrad5 from '../../assets/frank.jpg';
 
 const Team = () => {
   const gradStudents = [
     { name: 'Deepak Sapkota', photo: gradStudent1, description: 'Ph.D. Candidate' },
     { name: 'Rishabh Gupta', photo: gradStudent2, description: 'M.S. Student' },
     { name: 'Yuhui Guo', photo: gradStudent3, description: 'Ph.D. Student' },
+    { name: 'Brandon Boren', photo: gradStudent4, description: 'Ph.D. Student' },
   ];
 
   const underGrads = [
+    { name: 'Frank Nguyen', photo: underGrad5, description: 'UG Student' },
+  ];
+
+  const Alumni = [
     { name: 'Nora McGinty', photo: underGrad1, description: 'UG Student' },
     { name: 'Polina Girenko', photo: underGrad2, description: 'UG Student' },
     { name: 'Jamay Kazi', photo: underGrad3, description: 'UG Student' },
     { name: 'Emerald Schulz', photo: underGrad4, description: 'UG Student' },
-  ];
-
-  const volunteers = [
     { name: 'Endy Lopez', photo: volunteer1, description: 'Volunteer' },
     { name: 'Max Pollard', photo: volunteer2, description: 'Volunteer' },
   ];
@@ -56,13 +60,13 @@ const Team = () => {
         </div>
       </div>
       <div>
-        <h3 className="text-3xl text-yellow-600 font-serif font-semibold mb-10 text-center">Volunteers</h3>
+        <h3 className="text-3xl text-yellow-600 font-serif font-semibold mb-10 text-center">Alumni</h3>
         <div className="flex flex-wrap justify-center gap-20">
-          {volunteers.map((volunteer) => (
-            <div key={volunteer.name} className="text-center w-48">
-              <img src={volunteer.photo} alt={volunteer.name} className="h-60 w-full object-cover rounded-full"/>
-              <p className="mt-2 font-serif font-semibold">{volunteer.name}</p>
-              <p className="text-sm font-serif text-gray-600">{volunteer.description}</p>
+          {Alumni.map((Alumni) => (
+            <div key={Alumni.name} className="text-center w-48">
+              <img src={Alumni.photo} alt={Alumni.name} className="h-60 w-full object-cover rounded-full"/>
+              <p className="mt-2 font-serif font-semibold">{Alumni.name}</p>
+              <p className="text-sm font-serif text-gray-600">{Alumni.description}</p>
             </div>
           ))}
         </div>
