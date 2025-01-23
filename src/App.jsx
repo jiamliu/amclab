@@ -5,6 +5,7 @@ import Principle from './components/Principle/Principle';
 import Team from './components/Team/Team';
 import Events from './components/Events/Events';
 import Events2 from './components/Events2/Events2';
+import Events3 from './components/Events3/Events3';
 import Publication from './components/Publication/Publication'
 import Hiring from './components/Hiring/Hiring';
 import Footer from './components/Footer/Footer';
@@ -19,6 +20,7 @@ const App = () => {
       <Team id="team" />
       <Events id="events" />
       <Events2 id="events2" />
+      <Events3 id="events3" />
       <Hiring id="hiring" />
       <Publication id="publication" />
       <Newsroom id="newsroom" />

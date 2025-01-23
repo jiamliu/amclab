@@ -13,15 +13,17 @@ const Principle = () => {
                     <div className="space-y-5 sm:p-16 pb-6">
                         <h1 className="text-xl sm:text-xl font-bold font-serif">Principle Investigator</h1>
                         <p className="text-sm text-justify">
-                            Hui Ouyang, PhD, is an Assistant Professor of Mechanical Engineering at the University of Texas at Dallas (UTD). Dr. Ouyang earned her Ph.D. from the Mechanical Engineering (ME) department at the University of Minnesota at Twin-cities (Aerosol Science and Technology) in 2014 and her MS from the ME department at the University of Akron (MEMS lab) in 2010 and her BS (Fluid Machinery) from Xi’an Jiaotong University in 2007. Her research lays its foundation on aerosol science and technology through both experimental measurements and theoretical modeling. Her current research focuses on bioaerosol transport and control in indoor environments, and aerosol transport in lung systems. She is the recipient of the Doctoral dissertation Fellowship award in 2014 at UMN. She is the recipient of the Outstanding Faculty Teaching Award in 2019 at UTD.
+                        Hui Ouyang, Ph.D., is an Assistant Professor of Mechanical Engineering at the University of Texas at Dallas (UTD). She earned her Ph.D. in Mechanical Engineering, specializing in Aerosol Science and Technology, from the University of Minnesota, Twin Cities, in 2014. She also holds an M.S. in Mechanical Engineering from the University of Akron (2010) and a B.S. in Energy and Power Engineering from Xi’an Jiaotong University (2007).
+Dr. Ouyang has been recognized for her academic excellence with several awards, including the Doctoral Dissertation Fellowship at the University of Minnesota in 2014 and the Outstanding Faculty Teaching Award at UTD in 2019.
+Currently, Dr. Ouyang leads the Aerosol Measurement and Control (AMC) Lab, which focuses on experimental research in aerosol science and technology. Her lab investigates critical areas such as atmospheric aerosol science, bioaerosol transport, and indoor air quality. Specifically, the lab's projects explore key processes like coagulation following new particle formation in the atmosphere and the mechanisms of virus transmission via virus-laden bioaerosol particles in indoor environments. Her lab is supported by funding from UTD, NSF, and NIH.
                         </p>
                         <h2 className="text-xl sm:text-xl font-bold font-serif">Research Interests</h2>
                         <ul className="text-sm list-disc pl-5">
-                          <li>Particulate-laden flow systems.</li>
-                          <li>Virus transmission in indoor environments.</li>
-                          <li>Bioaerosol transport and control technologies.</li>
+                          <li>Aerosol Science and Technology</li>
+                          <li>Virus Transmission in Indoor Environments.</li>
+                          <li>Bioaerosol Transport and Control Technologies.</li>
                           <li>Instrumental development for aerosol science research.</li>
-                          <li>Aerosol transport in lung systems.</li>
+                          <li>Particulate-Laden Flow Systems.</li>
                         </ul>
                     </div>
                 </div>
